@@ -18,7 +18,7 @@
                 name="email"
                 type="email"
                 autocomplete="email"
-                required=""
+                placeholder="example@example.com"
                 class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cta sm:text-sm sm:leading-6"
               ></vee-field>
               <error-message class="text-error" name="email" />
@@ -36,7 +36,7 @@
                 name="password"
                 type="password"
                 autocomplete="current-password"
-                required=""
+                placeholder=""
                 class="block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-cta sm:text-sm sm:leading-6"
               ></vee-field>
               <error-message class="text-error" name="password" />

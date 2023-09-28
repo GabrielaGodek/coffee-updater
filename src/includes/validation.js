@@ -1,5 +1,5 @@
 import { Form as VeeForm, Field as VeeField, defineRule, ErrorMessage } from 'vee-validate'
-import { required, min, max, email, confirmed } from '@vee-validate/rules'
+import { required, min, max, email, confirmed, numeric, url } from '@vee-validate/rules'
 
 export const VeeValidatePlugin = {
   install(app) {
@@ -12,5 +12,7 @@ export const VeeValidatePlugin = {
     defineRule('max', max)
     defineRule('email', email)
     defineRule('confirmed', confirmed)
+    defineRule('decimal', numeric)
+    defineRule('url', url)
   }
 }
